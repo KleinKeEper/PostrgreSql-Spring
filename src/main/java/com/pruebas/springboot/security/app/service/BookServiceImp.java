@@ -14,18 +14,6 @@ public class BookServiceImp implements BookService {
 
 	@Autowired
 	private BookDao bookDao;
-	
-	@Override
-	public Map<String, Object> getAll() {
-		// TODO Auto-generated method stub
-		return bookDao.getAll();
-	}
-
-	@Override
-	public List<Book> getList() {
-		// TODO Auto-generated method stub
-		return bookDao.getList();
-	}
 
 	@Override
 	public List<Map<String, Object>> get() {
